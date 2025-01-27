@@ -30,7 +30,7 @@ const ImageSection = ({term}) => {
         <>
         {images.length===0 && <p className='font-bold text-center mt-5 text-red-700'>No Images Found !</p>}
         {isLoading && <Loading/>}
-        <div className="p-22 ">
+        <div className="p-22 bg-blend-lighten bg-gray-800">
             <div className="grid grid-cols-3 gap-3 ">
                 {images.map((image) => (
                     <ImageCard key={image.id} image={image} />

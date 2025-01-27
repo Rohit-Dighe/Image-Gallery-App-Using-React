@@ -3,7 +3,7 @@ const ImageCard = ({ image }) => {
     // console.log(imagetags[0])
 
     return (
-        <div className="w-full h-fit rounded-lg mb-5 shadow-gray-400 shadow-2xl ">
+        <div className="w-full h-fit rounded-lg mb-5 shadow-gray-400 shadow-2xl bg-white">
             <img
                 src={image.webformatURL}
                 alt="image"
